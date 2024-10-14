@@ -8,32 +8,38 @@
 
 
 body {
-padding-top: 20px;
-padding-right: 100px;
-padding-left: 100px;
+
+    padding-right: 100px;
+    padding-left: 100px;
+    width: 100vw;
+    height: 100vh;
 
 }
 
 .conteudo {
 
-    width: 100%;
+
+    height: 72vh;
     display: flex;
-    justify-content: space-between; /*criar espaço na horizontal*/
-    align-items: center; /*cria espaço ne vertical*/
+    justify-content: space-between;
+    /*criar espaço na horizontal*/
+    align-items: center;
+    /*cria espaço ne vertical*/
 
 }
 
 .caixa-texto {
-width: 600px;
+    width: 600px;
 
 
 }
 
 .caixa-img {
-width: 600px;
-display: flex;
-justify-content: flex-end;/*flex end cria o espaço no final*/
-margin-top: 250px;
+    /*width: 600px;*/
+    display: flex;
+    justify-content: flex-end;
+    /*flex end cria o espaço no final*/
+    /*margin-top: 250px;*/
 
 
 }
@@ -44,19 +50,24 @@ margin-top: 250px;
 }
 
 button:hover {
-transform: scale(2);
-transition: 1s;
+    transform: scale(2);
+    transition: 1s;
 }
 
 .like {
-    background: #017143; /*cor do fundo*/
-    color: #ffffff; /*cor do texto*/
-    border: none; /* borda */
-    padding: 10px; /*margin de dentro*/
-    border-radius: 30px; /* arredondamento de borda*/
+    background: #017143;
+    /*cor do fundo*/
+    color: #ffffff;
+    /*cor do texto*/
+    border: none;
+    /* borda */
+    padding: 10px;
+    /*margin de dentro*/
+    border-radius: 30px;
+    /* arredondamento de borda*/
     font-size: 20px;
     cursor: pointer;
-    
+
 }
 
 h1 {
@@ -66,9 +77,9 @@ h1 {
 }
 
 .star {
-color: #017143;
-font-size: 70px;
-font-weight: 900;
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
 
 }
 
@@ -76,29 +87,33 @@ p {
 
     font-size: 16px;
     margin-top: 20px;
-margin-bottom:  30px;
+    margin-bottom: 30px;
 
 }
 
 .logo {
     width: 100px;
+    position: relative;
+    top: 20px;
+
 }
 
 .copao {
-
+    margin-top: 200px;
     width: 340px;
     z-index: 2;
 }
-    
+
 
 .copinho {
-
+    position: relative;
+    bottom: 0px;
     width: 60px;
     cursor: pointer;
     transition: 1s;
-}   
+}
 
-.copinho:hover{
+.copinho:hover {
     transform: translateY(-35px);
 
 }
@@ -110,6 +125,6 @@ margin-bottom:  30px;
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: circle(600px at right 800px);
-  
+    clip-path: circle(700px at right 800px);
+
 }
